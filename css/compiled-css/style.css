@@ -1,0 +1,156 @@
+.nav {
+  background-color: rgba(51, 51, 51, 0);
+  text-align: center; }
+  .nav ul {
+    list-style-type: none;
+    font-size: 0;
+    padding: 0; }
+    .nav ul img {
+      width: 40px;
+      height: 40px;
+      float: left;
+      padding: 5px 0px; }
+    .nav ul li {
+      font-size: 20px;
+      display: inline-block;
+      padding: 13px 40px;
+      transition: background-color 0.3s ease; }
+      .nav ul li:hover {
+        background-color: rgba(68, 68, 68, 0.7); }
+      .nav ul li a {
+        text-decoration: none;
+        vertical-align: middle;
+        text-align: center;
+        color: white; }
+
+.nav-fixed {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  top: 0; }
+
+header .bg-img {
+  height: 80vh;
+  text-align: center;
+  position: relative;
+  margin: auto; }
+
+header .bg-img:before {
+  position: absolute;
+  content: "";
+  background-image: url("../../images/duchifat/duchifat-2.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-filter: brightness(70%);
+  filter: brightness(70%); }
+
+header .img-text {
+  font-size: 2em;
+  display: inline-block;
+  position: absolute;
+  top: 45%;
+  margin-left: -100px;
+  width: 200px;
+  color: white; }
+
+.strip {
+  height: 600px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  font-size: 2em; }
+
+.strip:before {
+  position: absolute;
+  content: "";
+  background-size: cover;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: -webkit-filter 0.3s ease, -webkit-transform 0.3s ease;
+  transition: filter 0.3s ease, transform 0.3s ease;
+  transition: filter 0.3s ease, transform 0.3s ease, -webkit-filter 0.3s ease, -webkit-transform 0.3s ease;
+  -webkit-filter: brightness(75%);
+  filter: brightness(75%);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  background-size: cover;
+  background-position: center; }
+
+.strip.hover.strip:before {
+  -webkit-filter: brightness(55%);
+  filter: brightness(55%);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1); }
+
+.img-text {
+  color: white;
+  position: absolute;
+  display: inline-block;
+  height: 100px;
+  width: 400px;
+  top: 50%;
+  margin-top: -50px;
+  margin-left: -200px;
+  word-wrap: break-word; }
+
+html {
+  font-family: 'Open Sans', sans-serif; }
+
+body {
+  min-height: 100%; }
+
+.text-center {
+  text-align: center; }
+
+.home-content {
+  max-width: 1000px;
+  margin: auto;
+  padding: 0; }
+
+.button {
+  border: 2px solid white;
+  border-radius: 2px;
+  padding: 10px;
+  margin-top: 20px;
+  color: white;
+  background-color: rgba(255, 255, 255, 0);
+  transition: background-color 0.3s ease-in-out; }
+
+.button:hover {
+  background-color: rgba(255, 255, 255, 0.7); }
+
+.sm-images img {
+  width: 40px;
+  height: 40px; }
+
+.md-images img {
+  width: 100px;
+  height: 100px; }
+
+figure.item {
+  display: inline-block;
+  margin: 40px 5%;
+  width: 100px; }
+
+figcaption {
+  word-wrap: break-word;
+  margin-top: 20px;
+  vertical-align: top; }
+
+.strip.duchifat-1:before {
+  background-image: url("../../images/duchifat/duchifat.jpg"); }
+
+.strip.duchifat-2:before {
+  background-image: url("../../images/duchifat/duchifat-2-2.jpg"); }
+
+.strip.israel-70:before {
+  background-image: url("../../images/iss-satellites.jpg"); }

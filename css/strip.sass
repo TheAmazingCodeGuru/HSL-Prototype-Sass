@@ -1,0 +1,36 @@
+//strip
+.strip
+  height: 600px
+  position: relative
+  overflow: hidden
+  text-align: center
+  font-size: 2em
+
+.strip:before
+  position: absolute
+  content: ""
+  background-size: cover
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+  transition: filter 0.3s ease, transform 0.3s ease
+  filter: brightness(75%)
+  transform: scale(1)
+  background-size: cover
+  background-position: center
+
+.strip.hover.strip:before
+  filter: brightness(55%)
+  transform: scale(1.1)
+
+.img-text
+  color: white
+  position: absolute
+  display: inline-block
+  height: 100px
+  width: 400px
+  top: 50%
+  margin-top: -50px
+  margin-left: -200px
+  word-wrap: break-word

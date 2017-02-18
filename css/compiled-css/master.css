@@ -1,0 +1,23 @@
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 60px;
+  background-color: #333;
+  text-align: center;
+  color: white; }
+
+.container {
+  height: 100%;
+  position: relative;
+  padding-bottom: 60px;
+  text-align: center; }
+
+.bg-img.master:before {
+  background-image: url("../../images/duchifat/duchifat-2-2.jpg"); }
+
+.bg-img.master {
+  height: 40vh;
+  margin-bottom: 20px; }
+
+/*# sourceMappingURL=master.css.map */

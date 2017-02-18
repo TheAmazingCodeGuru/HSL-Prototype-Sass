@@ -1,0 +1,61 @@
+// == Sass Imports
+@import 'animations'
+@import 'nav'
+@import 'header'
+@import 'strip'
+// == Sass Imports
+
+html
+  font-family: 'Open Sans', sans-serif
+
+body
+  min-height: 100%
+
+
+.text-center
+  text-align: center
+
+.home-content
+  max-width: 1000px
+  margin: auto
+  padding: 0
+
+.button
+  border: 2px solid rgba(255, 255, 255, 1)
+  border-radius: 2px
+  padding: 10px
+  margin-top: 20px
+  color: white
+  background-color: rgba(255, 255, 255, 0)
+  transition: background-color 0.3s ease-in-out
+
+.button:hover
+  background-color: rgba(255, 255, 255, .7)
+
+.sm-images
+  img
+    width: 40px
+    height: 40px
+
+.md-images
+  img
+    width: 100px
+    height: 100px
+
+figure.item
+  display: inline-block
+  margin: 40px 5%
+  width: 100px
+figcaption
+  word-wrap: break-word
+  margin-top: 20px
+  vertical-align: top
+
+.strip.duchifat-1:before
+  background-image: url("../../images/duchifat/duchifat.jpg")
+
+.strip.duchifat-2:before
+  background-image: url("../../images/duchifat/duchifat-2-2.jpg")
+
+.strip.israel-70:before
+  background-image: url("../../images/iss-satellites.jpg")
